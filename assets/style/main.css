@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: calc(100% - 124px);
+    margin: auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+header .logo img {
+    width: 25px;
+    height: 25px;
+}
+
+header .logo p {
+    color: #545BE8;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-grow: 2;
+}
+
+header ul a {
+    color: #101928;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+header .home-bottun-nav {
+    font-weight: 800;
+}
+
+header .auth {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+header .auth a {
+    width: 30%;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .auth .log-in {
+    color: #545BE8;
+    border: 1px solid #545BE8;
+}
+
+header .auth .register {
+    color: #fff;
+    background-color: #545BE8;
+}
